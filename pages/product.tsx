@@ -2,7 +2,7 @@ import Card from "../src/components/card/card";
 import { useState, useEffect } from "react";
 
 export default function Product() {
-  const [data, setData] = useState();
+  const [data, segit push -u origin maintData] = useState();
   const [loading, setloading] = useState();
   const [filter, setfilter] = useState();
 
@@ -21,6 +21,7 @@ export default function Product() {
   return (
     <div>
       <h1 className="flex-row justify-center ">Our Product</h1>
+      <input >Find Product</input>
       <Card />
     </div>
   );
