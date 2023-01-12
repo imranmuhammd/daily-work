@@ -14,7 +14,7 @@ export default function Layout({ children }: componentLayout) {
       <Slider />
       <Card />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
